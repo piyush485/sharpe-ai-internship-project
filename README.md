@@ -1,8 +1,68 @@
-# React + Vite
+# React + Vite Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a basic setup for a React project using Vite as the build tool.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To get started with this project, follow these steps:
+
+### Prerequisites
+
+Make sure you have Node.js and npm installed on your machine.
+
+- [Node.js](https://nodejs.org/en/)
+- [npm](https://www.npmjs.com/get-npm)
+
+### Clone the Repository
+
+Clone this repository to your local machine:
+
+```bash
+git clone https://github.com/your-username/react-vite-project.git
+cd react-vite-project
+
+Install Dependencies
+Install the necessary dependencies using npm:
+
+npm install
+
+Run the Development Server
+To start the development server, use the following command:
+
+npm run dev
+
+This will start the development server at http://localhost:3000.
+
+Build for Production
+To build the project for production, run:
+
+npm run build
+
+his will generate optimized production-ready files in the dist directory.
+
+Other Commands
+npm run build:css: Build CSS
+npm run serve: Serve the built production files locally
+npm run lint: Lint the project files
+Folder Structure
+
+react-vite-project/
+├── public/
+├── src/
+│ ├── components/
+│ │ ├── Alert.jsx
+│ │ ├── Data.jsx
+│ │ ├── Home.jsx
+│ │ ├── Navbar.jsx
+│ │ ├── Transaction.jsx
+│ ├── App.jsx
+│ ├── App.css
+│ ├── index.css
+│ └── index.jsx
+├── tailwind.config.js
+├── postcss.config.js
+├── .gitignore
+├── index.html
+├── package.json
+├── README.md
+└── vite.config.js
