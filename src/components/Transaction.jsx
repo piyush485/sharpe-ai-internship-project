@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Alert from './Alert';
+import transaction from '../../public/transaction.jpg'
 
 const Transaction = () => {
 
@@ -82,7 +83,7 @@ const Transaction = () => {
             <Alert alert={alert} />
             <div className='h-screen'>
                 <div className="flex flex-col mx-auto my-20 items-center bg-white border rounded-lg shadow md:flex-row md:max-w-xl dark:border-gray-700 dark:bg-gray-800">
-                    <img className="object-cover w-full rounded-t-lg h-96 md:w-48 md:rounded-none md:rounded-s-lg" src="../public/choong-deng-xiang-rVHIqG9tTOE-unsplash.jpg" alt="NO" />
+                    <img className="object-cover w-full rounded-t-lg h-96 md:w-48 md:rounded-none md:rounded-s-lg" src={transaction} alt="NO" />
                     <div className="w-full max-w-sm p-4 bg-white rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 ">
                         <form className="space-y-6" method='POST' onSubmit={handleFormSubmit}>
                             <h5 className="text-xl font-medium text-gray-900 dark:text-white">Enter Wallet Details</h5>
