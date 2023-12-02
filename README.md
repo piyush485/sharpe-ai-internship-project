@@ -44,7 +44,7 @@ npm run build:css: Build CSS
 npm run serve: Serve the built production files locally
 npm run lint: Lint the project files
 Folder Structure
-
+```bash 
 react-vite-project/
 ├── public/
 ├── src/
